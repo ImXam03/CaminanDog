@@ -4,7 +4,7 @@ body {
     font-size:1rem;
     
 }
-
+/* normalizar */
 .informacion_1 {
     display: flex;
     flex-direction: column;
