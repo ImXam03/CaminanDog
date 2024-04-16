@@ -241,8 +241,15 @@ section.info_trascendencia {
         width: 270px;
     }
 
+    .paseo_title{
+        justify-content: center;
+        align-items: center;
+    }
+
     .paseo_space {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .paseo_img,
@@ -265,6 +272,11 @@ section.info_trascendencia {
 
     img.caninos-montana {
         width: 310px;
+    }
+
+    .paseo_space{
+        justify-content: center;
+        align-items: center;
     }
 
     .paseo_img,
@@ -355,14 +367,14 @@ section.info_trascendencia {
     }
     
     .paseo_img {
-        width: 470px;
+        width: 370px;
         height: 395px;
         object-fit: cover;
     }
     
     .paseo_info {
         background-color: #f4ece1;
-        width: 470px;
+        width: 370px;
         height: 395px;
     
     }
@@ -388,4 +400,6 @@ section.info_trascendencia {
         height: 395px;
     
     }
+
+
 }
