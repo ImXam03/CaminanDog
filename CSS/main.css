@@ -126,6 +126,7 @@ body {
 
 .cocker_talado {
     width: 300px;
+}
 .cocker_talado{
     width: 350px;
     height: 300px;
@@ -237,7 +238,8 @@ body {
 
 
 @media (min-width: 380px) {
-    .container {
+    /* .container  */
+}
 /* 
 
  */
@@ -310,7 +312,6 @@ body {
     .container {
         width: calc(768px - 30px);
         margin: auto 20px;
-    }
         margin:  auto 20px;
      }
 
@@ -324,6 +325,7 @@ body {
     .who {
         text-align: center;
         margin-top: -100px;
+    }
 
     .informacion_1 {
         flex-direction: column;
@@ -362,6 +364,7 @@ body {
         align-items: center;
     }
     
+}
 }
 
 @media  (min-width: 768px) {
@@ -431,6 +434,4 @@ body {
         height: 395px;
     
     }
-
-
 }
