@@ -92,27 +92,30 @@ body {
         flex-direction: column;
     }
 } */
-.container {
+/* .container {
     margin: 20px;
-}
+} */
 
-section.who-im {
+.informacion_1 {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
-    
 }
 
 .who {
     text-align: center;
 }
 
-.caninos-montana{
-    width: 230px;
+.caninos_montana{
+        width: 255px;
+        height: 255px;
+        object-fit: cover;
+        object-position: -1px -77px;
+    
 }
 
-section.info_trascendencia {
+.informacion_2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -164,32 +167,44 @@ section.info_trascendencia {
 }
 @media  (min-width: 567px){
     .container{
-        width: calc(567px - 30px);
+        /* width: calc(567px - 30px); */
         margin:  auto 20px;
     }
 
-    img.caninos-montana {
-        width: 310px;
+    .informacion_1 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    img.caninos_montana {
+        margin-top: 26px;
+        width: 244px;
+        height: 235px;
+    }
+
+    .informacion_2 {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
     }
     .container{
         width: calc(768px - 30px);
         margin:  auto 20px;
-    }
+     }
 
-    section.who-im {
+     section.who-im {
         display: flex;
         flex-direction: row;
-        margin: 60px;
-        align-items: center;
-        gap: 10%;
+        gap: 30px;
+        align-items: baseline;
     }
-    .who {
-        text-align: center;
-        margin-top: -100px;
+
+    .informacion_1 {
+        flex-direction: column;
     }
-    .grupo_perros{
-        display: flex;
-        
+    .informacion_2 {
+        flex-direction: column;
     }
 
     div img.caninos-montana {
