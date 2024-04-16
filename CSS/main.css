@@ -1,8 +1,8 @@
 body {
     padding: 0;
     box-sizing: border-box;
-    font-size:1rem;
-    
+    font-size: 1rem;
+
 }
 /* normalizar */
 .informacion_1 {
@@ -10,18 +10,15 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+
 }
 
 .who {
     text-align: center;
 }
 
-.caninos_montana{
-        width: 255px;
-        height: 255px;
-        object-fit: cover;
-        object-position: -1px -77px;
-    
+.caninos-montana {
+    width: 230px;
 }
 
 .informacion_2 {
@@ -29,10 +26,10 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 20px;
-    
+
 }
 
-.trascendencia{
+.trascendencia {
     text-align: center;
 }
 
@@ -40,20 +37,23 @@ body {
     width: 261px;
     height: 198px;
     object-fit: contain;
+
 }
 
-.title{
+.title {
     font-family: "Amatic SC", sans-serif;
     font-size: 30px;
     font-style: italic;
     font-weight: unset;
     text-align: center;
-    
+
 }
 
 .paragraph {
     font-size: 15px;
     font-family: "Amatic SC", sans-serif;
+    text-align: left;
+
     text-align: justify;
     
 }
@@ -72,16 +72,15 @@ body {
         gap: 20px;
     }
 
-    img.caninos_montana {
-        margin-top: 26px;
-        width: 244px;
-        height: 235px;
+    .paseo_space{
+        justify-content: center;
+        align-items: center;
     }
 
-    .informacion_2 {
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 20px;
+    .paseo_img,
+    .paseo_info {
+        width: 400px;
+        height: 185px;
     }
 
     img.cocker_talado {
@@ -94,8 +93,9 @@ body {
 
 @media (min-width: 768px) {
     
-    .container{
+    .container {
         width: calc(768px - 30px);
+        margin: auto 20px;
         margin:  auto 20px;
      }
 
@@ -105,9 +105,16 @@ body {
         gap: 30px;
         align-items: baseline;
     }
-
+    .who {
+        text-align: center;
+        margin-top: -100px;
+    }
     .informacion_1 {
         flex-direction: column;
+    }
+
+    .grupo_perros {
+        display: flex;
     }
     .informacion_2 {
         flex-direction: column;
