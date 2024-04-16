@@ -92,14 +92,14 @@ body {
         flex-direction: column;
     }
 } */
-.container {
+/* .container {
     margin: 20px;
-}
+} */
 
-section.who-im {
+.informacion_1 {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
 
 }
@@ -112,7 +112,7 @@ section.who-im {
     width: 230px;
 }
 
-section.info_trascendencia {
+.informacion_2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -126,6 +126,8 @@ section.info_trascendencia {
 
 .cocker_talado {
     width: 300px;
+.cocker_talado{
+    width: 350px;
     height: 300px;
     object-fit: contain;
 
@@ -145,6 +147,9 @@ section.info_trascendencia {
     font-family: "Amatic SC", sans-serif;
     text-align: left;
 
+    text-align: justify;
+    margin: 15px 15px 25px 15px;
+    
 }
 
 .paseo_space {
@@ -233,12 +238,19 @@ section.info_trascendencia {
 
 @media (min-width: 380px) {
     .container {
+/* 
+
+ */
+ @media (min-width: 380px){
+    .container{
         width: calc(380px - 50px);
         margin: auto 20px;
     }
 
     img.caninos-montana {
-        width: 270px;
+        width: 230px;
+        height: 300px;
+        object-fit: cover;
     }
 
     .paseo_title{
@@ -270,8 +282,10 @@ section.info_trascendencia {
         margin: auto 20px;
     }
 
-    img.caninos-montana {
-        width: 310px;
+    .informacion_1 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 
     .paseo_space{
@@ -297,23 +311,29 @@ section.info_trascendencia {
         width: calc(768px - 30px);
         margin: auto 20px;
     }
+        margin:  auto 20px;
+     }
 
-    section.who-im {
+     section.who-im {
         display: flex;
         flex-direction: row;
-        margin: 60px;
-        align-items: center;
-        gap: 10%;
+        gap: 30px;
+        align-items: baseline;
     }
 
     .who {
         text-align: center;
         margin-top: -100px;
+
+    .informacion_1 {
+        flex-direction: column;
     }
 
     .grupo_perros {
         display: flex;
 
+    .informacion_2 {
+        flex-direction: column;
     }
 
     div img.caninos-montana {
@@ -323,19 +343,30 @@ section.info_trascendencia {
 
     .title {
         font-size: 40px;
+        margin: 35px 0px 0px 0px;
+        text-align: center;
     }
 
     .paragraph {
         font-size: 20px;
         text-align: left;
     }
-
+    .cocker_talado {
+        width: 280px;
+        height: 330px;
+    }
     section.info_trascendencia {
         display: flex;
         flex-direction: row;
         margin: 10px 60px;
         align-items: center;
     }
+    
+}
+
+@media  (min-width: 768px) {
+    
+ 
 
     .paseo_space{
         flex-direction: row;
