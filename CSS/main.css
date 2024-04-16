@@ -125,10 +125,9 @@ section.info_trascendencia {
 }
 
 .cocker_talado{
-    width: 300px;
+    width: 350px;
     height: 300px;
     object-fit: contain;
-    
 }
 
 .title{
@@ -143,10 +142,10 @@ section.info_trascendencia {
 .paragraph {
     font-size: 15px;
     font-family: "Amatic SC", sans-serif;
-    text-align: left;
+    text-align: justify;
+    margin: 15px 15px 25px 15px;
     
 }
-
 /* 
 
  */
@@ -157,7 +156,9 @@ section.info_trascendencia {
     }
 
     img.caninos-montana {
-        width: 270px;
+        width: 230px;
+        height: 300px;
+        object-fit: cover;
     }
     
 }
@@ -170,12 +171,6 @@ section.info_trascendencia {
     img.caninos-montana {
         width: 310px;
     }
-    
-    
-}
-
-@media  (min-width: 768px) {
-    
     .container{
         width: calc(768px - 30px);
         margin:  auto 20px;
@@ -204,19 +199,30 @@ section.info_trascendencia {
 
     .title{
         font-size: 40px;
+        margin: 35px 0px 0px 0px;
+        text-align: center;
     }
 
     .paragraph{
         font-size: 20px;
         text-align: left;
     }
-
+    .cocker_talado {
+        width: 280px;
+        height: 330px;
+    }
     section.info_trascendencia {
         display: flex;
         flex-direction: row;
         margin: 10px 60px;
         align-items: center;
     }
+    
+}
+
+@media  (min-width: 768px) {
+    
+ 
 
     /* div.grupo_perros{
         
