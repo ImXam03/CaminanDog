@@ -5,97 +5,6 @@ body {
     
 }
 
-/* /* background-size: 50vw;
-    opacity: 0.6;
-   
-    
-    /* color: #20303c; */  
-    /* font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif; */
-    /* font-size: 16px;
-    font-weight: 400; */
-    /* height: 100%; */
-    /* line-height: 1.5; */
-    /* margin: 0;
-    padding: 0;
-    width: 100%;
-*/
-/* body { 
-    background-color: #f9fafa;
-    background-image: url(../images/background2.png); 
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: 40vw 100vh;
-    background-position-y: center;
-    
-    } */
-/* .who-im {
-       
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-   
-} */
-
-/* .who {
-   text-align: center;
-   margin-left: 100px;
-   margin-right: 50px;
-} */
-
-/* .caninos-montaña {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    padding-left: 100px;
-    margin: 50px 150px 50px 60px;
-} */
-
-/* .info_trascendencia { 
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    align-items: center;
-    
-} */
-
-/* .trascendencia { 
-    text-align: center;
-    margin-right: 100px;
-}
-
-.cocker_talado{
-    width: 500px;
-    height: 500px;
-    object-fit: contain;
-    
-} */
-
-/* @media screen and (min-width: 567px) {
-    .container{
-        width: calc(567px - 20px);
-    }
-    
-    .container {
-        display: flex;  
-        flex-direction: column;
-        text-align: left;
-    
-    }
-
-    .who-im {
-        flex-direction: column;
-    }
-
-    .info_trascendencia{
-        flex-direction: column;
-    }
-} */
-/* .container {
-    margin: 20px;
-} */
-
 .informacion_1 {
     display: flex;
     flex-direction: column;
@@ -149,10 +58,7 @@ body {
     
 }
 
-/* 
 
- */
- 
 @media  (min-width: 567px){
     .container{
         /* width: calc(567px - 30px); */
@@ -224,7 +130,28 @@ body {
 
 }
 
+@media (min-width: 992px) {
+    
+    .who {
+        text-align: center;
+        margin: 0px 0px 22px 0px;
+    }
 
+    img.caninos_montana {
+        width: 309px;
+        height: 253px;
+    }
 
+    img.cocker_talado {
+        width: 321px;
+        height: 253px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .who {
+        margin: 0px;
+    }
+}
 
 
