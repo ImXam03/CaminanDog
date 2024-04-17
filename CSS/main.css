@@ -1,0 +1,317 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+
+.container {
+    margin: 20px;
+}
+
+section.who-im {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.who {
+    text-align: center;
+}
+
+.caninos-montana {
+    width: 230px;
+}
+
+section.info_trascendencia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.trascendencia {
+    text-align: center;
+}
+
+.cocker_talado {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.title {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: unset;
+    text-align: center;
+
+}
+
+.paragraph {
+    font-size: 15px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: left;
+
+}
+
+.paseo_space {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.paseo_img {
+    width: 470px;
+    height: 395px;
+    object-fit: cover;
+}
+
+.paseo_info {
+    background-color: #f4ece1;
+    width: 470px;
+    height: 395px;
+
+}
+
+.paseo_main {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.paseo_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paseo_info h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.paseo_info hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.eslogan_paseo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn_reservar {
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 2rem;
+    width: 150px;
+    height: 52px;
+}
+
+.ver_mas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 2rem;
+    background-color: #FF7648;
+    border-style: none;
+    color: white;
+    height: 50px;
+    width: 222px;
+    margin-bottom: 5rem;
+}
+
+.ver_mas:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.ver_mas_link {
+    text-decoration: none;
+}
+
+
+@media (min-width: 380px) {
+    .container {
+        width: calc(380px - 50px);
+        margin: auto 20px;
+    }
+
+    img.caninos-montana {
+        width: 270px;
+    }
+
+    .paseo_title{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paseo_space {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paseo_img,
+    .paseo_info {
+        width: 300px;
+        height: 185px;
+    }
+
+    .paseo_info {
+        height: 360px;
+    }
+
+}
+
+@media (min-width: 567px) {
+    .container {
+        width: calc(567px - 30px);
+        margin: auto 20px;
+    }
+
+    img.caninos-montana {
+        width: 310px;
+    }
+
+    .paseo_space{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paseo_img,
+    .paseo_info {
+        width: 400px;
+        height: 185px;
+    }
+
+    .paseo_info {
+        height: 360px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        width: calc(768px - 30px);
+        margin: auto 20px;
+    }
+
+    section.who-im {
+        display: flex;
+        flex-direction: row;
+        margin: 60px;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .who {
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .grupo_perros {
+        display: flex;
+
+    }
+
+    div img.caninos-montana {
+        width: 200px;
+
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    section.info_trascendencia {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 60px;
+        align-items: center;
+    }
+
+    .paseo_space{
+        flex-direction: row;
+    }
+    .paseo_img,
+    .paseo_info {
+        width: 300px;
+        height: 360px;
+    }
+
+    .paseo_info {
+        height: 360px;
+    }
+
+    /* div.grupo_perros{
+        
+        padding: 50px 30 px;
+    } */
+
+
+}
+
+@media screen and (min-width:998px) {
+    .paseo_space {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .paseo_img {
+        width: 370px;
+        height: 395px;
+        object-fit: cover;
+    }
+    
+    .paseo_info {
+        background-color: #f4ece1;
+        width: 370px;
+        height: 395px;
+    
+    }
+}
+
+@media screen and (min-width:1200px){
+    .paseo_space {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .paseo_img {
+        width: 470px;
+        height: 395px;
+        object-fit: cover;
+    }
+    
+    .paseo_info {
+        background-color: #f4ece1;
+        width: 470px;
+        height: 395px;
+    
+    }
+
+}
