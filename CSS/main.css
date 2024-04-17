@@ -1,3 +1,143 @@
+/* body {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+} */
+/* normalizar */
+/* .informacion_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.who {
+    text-align: center;
+}
+
+.caninos-montana {
+    width: 230px;
+}
+
+.informacion_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.trascendencia {
+    text-align: center;
+}
+
+.cocker_talado {
+    width: 261px;
+    height: 198px;
+    object-fit: contain;
+
+}
+
+.title {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: unset;
+    text-align: center;
+
+}
+
+.paragraph {
+    font-size: 15px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: left;
+
+    text-align: justify;
+    
+}
+
+
+ 
+@media  (min-width: 567px){
+    .container{
+        /* width: calc(567px - 30px); */
+        /* margin:  auto 20px;
+    }
+
+    .informacion_1 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .paseo_space{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paseo_img,
+    .paseo_info {
+        width: 400px;
+        height: 185px;
+    }
+
+    img.cocker_talado {
+        width: 255px;
+        height: 204px; */
+        /* margin-top: 27px; */
+    /* }
+}
+
+
+@media (min-width: 768px) {
+    
+    .container {
+        width: calc(768px - 30px);
+        margin: auto 20px;
+        margin:  auto 20px;
+     }
+
+     section.who-im {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: baseline;
+    }
+    .who {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .informacion_1 {
+        flex-direction: column;
+    }
+
+    .grupo_perros {
+        display: flex;
+    }
+    .informacion_2 {
+        flex-direction: column;
+    }
+
+    img.caninos_montana {
+        width: 343px;
+        height: 274px;
+        object-position: 0px -101px;
+        object-fit: cover;
+        margin: -22px 0px 5px 1px;
+    }
+
+    img.cocker_talado {
+        margin: -21px -12px;
+        width: 258px;
+        height: 273px;
+        object-fit: cover;
+        object-position: -28px 0px;
+    }
+
+} */
+
 body {
     padding: 0;
     box-sizing: border-box;
